@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flogin
+{
+
+	background-color:#F2F2F2;
+	margin: 10%;
+	padding: 10%;
+	border: solid 2px #0E58AD;
+	border-radius:6%;
+/*	width: 100%;
+	height: 100%;*/
+	
+}
+#uno
+{
+	background-color:#0E58AD;
+	font-size:14px;
+	font-weight:bold;
+	color: white;
+}
+
+#uno:hover
+{
+	background-color:#4F81BD;
+	color: white;
+}
+.ensayo
+{
+		font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+.footer
+{
+	position:relative;
+	top: 80%;
+}
