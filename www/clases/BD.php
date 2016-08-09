@@ -13,6 +13,7 @@
         */
         public function BD()
         {
+    
 
         }
 
@@ -60,6 +61,12 @@
 
             return $respuesta;
         }
+        function retornar_usuarios($s)
+	{
+		$con=$this->conectar();
+		$resultado=$con->query($s);
+		return $resultado;
+	}
 
 
 
