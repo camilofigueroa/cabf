@@ -80,6 +80,8 @@ function escribir($s)
 	}
 
 
+}
+
 
 
     
