@@ -24,7 +24,65 @@
 
         /***********aguegue sus métodos después de esta línea de código****************************************/
 
-    }
+function escribir($s)
+	{
+		$r=$this->retornar_usuarios($s);
+         return $s;
+	}
+	
+	/*
+	**
+	*Selects
+	*/
+	function escribir2($s)
+	{
+		$r=$this->retornar_usuarios2($s);
+		return $r;
+	}
+	
+	function escribir3($s)
+	{
+		$r=$this->retornar_usuarios3($s);
+		return $r;
+	}
+	
+	function escribir4($s)
+	{
+		$r=$this->retornar_usuarios4($s);
+		return $r;
+	}
+	
+	function escribir5($s)
+	{
+		$r=$this->formulario_insertar($s);
+		return $r;
+	}
+	
+	function alertas($mensaje,$ruta,$imagen)
+	{
+		$salida="";
+		$salida.=
+		'<script src="js/sweetalert-master/dist/sweetalert.min.js"></script> 
+		<link rel="stylesheet" type="text/css" href="css/sweetalert.css">		
+		<body>
+		<script language="javascript">
+		swal({ 
+		title: "",
+		text: "'.$mensaje.'",
+		imageUrl: "iconos/'.$imagen.'"
+		},
+		function(){
+		window.location.href = "'.$ruta.'";
+		});
+		</script>
+		</body>';	
+		return $salida;
+	}
+
+
+
+
+    
 
 
 
